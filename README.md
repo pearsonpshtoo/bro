@@ -10,7 +10,7 @@ front end for apt that accepts bro-centric commands and translates them to comma
 
 
 #commands
-"bro gimme vim"       =>   "sudo apt-get install vim" (currently only one package per command is supported)
-"bro wassupdate"      =>   "sudo apt-get update"
-"bro wassupgrade"     =>   "sudo apt-get upgrade"
-"bro wassupgrade yuh" =>   "sudo apt-get upgrade -y"
+- "bro gimme vim"       =>   "sudo apt-get install vim" (currently only one package per command is supported)
+- "bro wassupdate"      =>   "sudo apt-get update"
+- "bro wassupgrade"     =>   "sudo apt-get upgrade"
+- "bro wassupgrade yuh" =>   "sudo apt-get upgrade -y"
