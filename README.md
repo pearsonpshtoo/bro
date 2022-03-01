@@ -3,7 +3,7 @@ front end for apt that accepts bro-centric commands and translates them to apt c
 
 
 #install
-1) git clone -r https://github.com/pearsonpshtoo/bro
+1) git clone https://github.com/pearsonpshtoo/bro
 2) cd bro
 3) g++ bro.cpp -o bro
 4) sudo cp bro /usr/local/bin
