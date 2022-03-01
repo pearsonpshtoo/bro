@@ -9,6 +9,9 @@ front end for apt that accepts bro-centric commands and translates them to apt c
 4) g++ bro.cpp -o bro
 5) sudo cp bro /usr/local/bin (or any directory listed from "echo $PATH")
 
+#uninstall
+1) sudo rm /usr/local/bin/bro
+
 
 #commands
 - "bro gimme vim"       =>   "sudo apt-get install vim" (currently only one package per command is supported)
