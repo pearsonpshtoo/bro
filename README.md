@@ -1,5 +1,5 @@
 # bro
-front end for apt that accepts bro-centric commands and translates them to apt commands
+cli front end for apt written in C++ that accepts bro-centric commands and translates them to apt commands
 
 
 #install
