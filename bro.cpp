@@ -20,8 +20,6 @@ std::string exec(const char* cmd) {
     while (!feof(pipe.get())) {
         if (fgets(buffer.data(), 128, pipe.get()) != nullptr){
             result += buffer.data();
-		//Test Line---------------------------------------
-		//  m,cl,l  15:43:40	Speed  17.68 Mh/s	gpu/0 17.64  [A345+0:R0:F0] Time: 21:22
 	}
     }
     return result;
@@ -30,9 +28,7 @@ std::string exec(const char* cmd) {
 int main(int argc, char *argv[]){
 	string command;
 	string tCommand;
-	/*for (int i = 0; i < argc ; ++i)
-		cout << "argv[" << i << "] = " << argv[i] << endl;
-	*/
+	
 	if (strcmp(argv[1], "gimme") == 0){
 		command = "install";	
 	}
