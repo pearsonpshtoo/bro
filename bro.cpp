@@ -44,7 +44,9 @@ int main(int argc, char *argv[]){
 		tCommand = "sudo apt-get " + command + " -y";
 	}
 	else {
-		tCommand = "sudo apt-get " + command + " " + argv[2];
+		tCommand = "sudo apt-get " + command + " ";
+	       	for (int a = 2; a < argc ; a++)	
+			tCommand = tCommand + argv[a] + " ";
 	}
 	cout << "Entered command: \"";
 	for (int i = 0; i < argc ; ++i){
