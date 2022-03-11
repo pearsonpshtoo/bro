@@ -14,7 +14,8 @@ cli front end for apt written in C++ that accepts bro-centric commands and trans
 
 
 #commands
-- "bro gimme vim"       =>   "sudo apt-get install vim" (currently only one package per command is supported)
+- "bro gimme vim"       =>   "sudo apt-get install vim"
+- "bro gimme vim nano"  =>   "sudo apt-get install vim nano"
 - "bro wassupdate"      =>   "sudo apt-get update"
 - "bro wassupgrade"     =>   "sudo apt-get upgrade"
 - "bro wassupgrade yuh" =>   "sudo apt-get upgrade -y"
